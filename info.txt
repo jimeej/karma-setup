@@ -1,0 +1,19 @@
+- why do we need testing.
+- what is a testing framework and a test runner. Jasmine, Mocha and QUnit 
+- how to do the setup
+- dependencies to install
+
+    steps: 
+    nvm install 5.0
+    nvm use 5.0
+    npm install -g nodemon
+    npm init
+    npm install express body-parser morgan path --save
+    npm install karma karma-jasmine jasmine-core karma-chrome-launcher --save-dev
+    npm install -g karma-cli
+    npm install angular angular-ui-router angular-mocks --save-dev
+    karma init
+
+
+- what is the karma config file.
+- how to run the tests
