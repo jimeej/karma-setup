@@ -25,13 +25,15 @@ module.exports = function(config) {
 
     // list of files / patterns to exclude
     exclude: [
+      "app/**/*.spec.js"
     ],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {
-    },
+    // preprocessors : {
+    //   'app/**/*.js': ['coverage']
+    // },
 
 
     // test results reporter to use
@@ -40,9 +42,13 @@ module.exports = function(config) {
 
     // reporters: ['progress'],
     // it displays the tests in terminal
-    reporters: ['spec'],
+    // reporters: ['spec'],
+    reporters : ['coverage','progress'],
 
-
+    coverageReporter : {
+      type : 'html',
+      dir : 'coverage/'
+    },
     // web server port
     port: 9876,
 
@@ -63,12 +69,15 @@ module.exports = function(config) {
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     browsers: ['Chrome'],
+    // browsers: ['PhantomJS'],
+    
 
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false,
-
+    // singleRun: true,
+    
     // Concurrency level
     // how many browser should be started simultaneous
     concurrency: Infinity
