@@ -91,7 +91,7 @@ To setup the project locally these steps should be followed:
  (http://user@stashblue.ms.com:11990/atlassian-stash/scm/vibe_otcpq_ui/otcpq-ui.git)
 * Clone the repository in local
 * On completion ```Go to ‘src’ folder and Open terminal ```,then run 
-> ms-grunt.bat
+   > ms-grunt.bat
 * Go to [this browser path](http://localhost.ms.com:8181/)
 
 # Basic Code Structure Overview
