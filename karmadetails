@@ -1,0 +1,48 @@
+overview- 
+
+unit testing frameworks
+testing framework
+test environment
+test runner
+what is karma
+Karma is a direct product of the AngularJS team from struggling to test their own framework features with existing tools.Karma provides helpful tools that make it easier to us to call our Jasmine tests whilst we are writing code.
+(What’s –save-dev? That’s an option that updates the installed packages in the ‘devDependencies’ section of the package.json file. It signifies that a developer will need this package to work with the application, but it’s not required to run the applicaiton i.e. in production.)
+
+
+what is jasmine
+Jasmine is a behavior-driven development framework for testing JavaScript code that plays very well with Karma. Similar to Karma, it’s also the recommended testing framework within the AngularJS documentation. 
+
+
+what is istanbul
+A Javascript code coverage tool written in JS
+Istanbul instruments your ES5 and ES2015+ JavaScript code with line counters, so that you can track how well your unit-tests exercise your codebase.
+Features
+First class support of ES6/ES2015+ using babel-plugin-istanbul.
+A collection of reporters, providing both terminal and HTML output: 
+
+
+what is code coverage
+test coverage is a measure used to describe the degree to which the source code of a program is executed when a particular test suite runs.
+There are a number of coverage criteria, the main ones being:[5]
+
+Function coverage – Has each function (or subroutine) in the program been called?
+Statement coverage – Has each statement in the program been executed?
+Branch coverage – Has each branch (also called DD-path) of each control structure (such as in if and case statements) been executed? For example, given an if statement, have both the true and false branches been executed? Another way of saying this is, has every edge in the program been executed?
+Condition coverage (or predicate coverage) – Has each Boolean sub-expression evaluated both to true and false?
+
+
+topics to cover
+what is karma
+what is jasmine and istanbul
+
+karma config basics
+write a plain test case file
+how to mock data
+writing test cases for controller, services, directives
+how to generate coverage report
+
+
+
+
+
+refer http://www.bradoncode.com/blog/2015/05/19/karma-angularjs-testing/ for steps
